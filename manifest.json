@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jdj.workspaces",
+  "name": "Workspace Monitor Indicators",
+  "version": "1.0.0",
+  "author": "Jonathan Johnson",
+  "description": "Subtle, theme-aware indicators showing which monitor owns each workspace",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Workspace Monitor Indicators",
+    "description": "Subtle monitor assignments on the workspace bar, with a collapsible key",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}
